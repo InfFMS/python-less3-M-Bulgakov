@@ -16,8 +16,6 @@ while x != 0:
 n = float(a)
 l = float(k)
 if k != 0:
-    print(n//l)
+    print(n/l)
 else:
     print('нет')
-
-print(f'Двузначных натуральных чисел:{k}')

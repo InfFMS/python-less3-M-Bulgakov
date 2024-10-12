@@ -5,3 +5,14 @@
 # которая начинается с двух единиц и каждое следующее число
 # равно сумме двух предыдущих: 1, 1, 2, 3, 5, 8, 13, …
 
+def fibonacci(n):
+    if n in (1, 2):
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+i=0
+n = int(input())
+
+while n != 0:
+    s.join(str(fibonacci(n)))
+    n = int(input())
