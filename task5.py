@@ -3,3 +3,19 @@
 # которые являются степенями числа 2.
 # Вывести "нет", если таких чисел нет.
 
+x = int(input())
+k = 0
+a=0
+while x != 0:
+    for i in range((x+1)//2):
+        if x == 2**(i+1):
+            f = i+1
+            a +=x
+            k +=1
+    x = int(input())
+n = float(a)
+l = float(k)
+if k != 0:
+    print(n/l)
+else:
+    print('нет')
