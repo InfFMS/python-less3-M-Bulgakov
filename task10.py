@@ -2,6 +2,7 @@
 # Определить минимальное и максимальное среди простых чисел
 # (которые делятся на сами не себя и на 1).
 # Если таких чисел не было, вывести "нет".
+import math
 n = int(input())
 x = int(input())
 k = 0
@@ -11,7 +12,7 @@ M = x
 m = x
 r = x
 z = 0
-for i in range((sqrt(x)):
+for i in range(int((math.sqrt(x)))):
     if x % (i+1) == 0:
         s += 1
 if x == 1:
@@ -27,7 +28,7 @@ else:
 for j in range(n-1):
     s = 0
     r = x
-    for i in range((sqrt(x)):
+    for i in range((math.sqrt(x))):
         if x % (i+1) == 0:
             s += 1
     if x == 1:
